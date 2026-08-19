@@ -2,7 +2,7 @@ package Restaurant;
 
 public class Restaurant {
 
-    // STEP 3 - All instance variables are private (Encapsulation)
+    
     private int restId;
     private String name;
     private String address;
@@ -13,7 +13,7 @@ public class Restaurant {
     private double price2;
     private double price3;
 
-    // STEP 4 - Parameterized constructor
+   
     public Restaurant(int restId, String name, String address,
                        String food1, double price1,
                        String food2, double price2,
@@ -29,7 +29,7 @@ public class Restaurant {
         this.price3 = price3;
     }
 
-    // STEP 5 - Display method
+    
     public void displayRestaurantDetails() {
         System.out.println("RESTAURANT DETAILS");
         System.out.println("----------------------------------------");

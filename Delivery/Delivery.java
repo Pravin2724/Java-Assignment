@@ -34,8 +34,8 @@ public class Delivery {
         System.out.println("Using getter restaurant.getRestId() -> " + restaurant.getRestId());
 
         System.out.println();
-        System.out.println("Changing restaurant name using setter: restaurant.setName(\"Prince Food Corner\")");
-        restaurant.setName("Prince Food Corner");
+        System.out.println("Changing restaurant name using setter: restaurant.setName(\"Prince Restaurant\")");
+        restaurant.setName("Prince Restaurant");
         System.out.println();
         restaurant.displayRestaurantDetails();
     }

@@ -44,7 +44,7 @@ public class Restaurant {
         System.out.println("3. " + food3 + " - Rs." + (int) price3);
     }
 
-    // STEP 6 - Getters and Setters
+  
     public int getRestId() {
         return restId;
     }

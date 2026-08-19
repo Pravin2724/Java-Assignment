@@ -2,7 +2,7 @@ package Restaurant;
 
 public class Order {
 
-    // STEP 7 - Private instance variables
+   
     private int orderId;
     private String customerName;
     private String foodName;
@@ -10,7 +10,7 @@ public class Order {
     private double unitPrice;
     private double totalAmount;
 
-    // STEP 8 - Parameterized constructor
+    
     public Order(int orderId, String customerName, String foodName, int quantity, double unitPrice) {
         this.orderId = orderId;
         this.customerName = customerName;
@@ -19,12 +19,12 @@ public class Order {
         this.unitPrice = unitPrice;
     }
 
-    // STEP 9 - Calculate order amount
+   
     public void calculateOrderAmount() {
         totalAmount = quantity * unitPrice;
     }
 
-    // STEP 10 - Display order details
+  
     public void displayOrderDetails() {
         System.out.println("ORDER DETAILS");
         System.out.println("----------------------------------------");
@@ -36,7 +36,7 @@ public class Order {
         System.out.println("Total Amount    : Rs." + (int) totalAmount);
     }
 
-    // Getters and Setters
+  
     public int getOrderId() {
         return orderId;
     }
